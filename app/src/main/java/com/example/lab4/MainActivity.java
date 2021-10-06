@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         stopThread = false;
         ExampleRunnable runnable = new ExampleRunnable();
         new Thread(runnable).start();
-
+ // comment
 
     }
 
